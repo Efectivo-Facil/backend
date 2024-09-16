@@ -8,7 +8,6 @@ public class InmobiliariaApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(InmobiliariaApplication.class, args);
-		System.out.println("Iniciando Servidor");
 	}
 
 }

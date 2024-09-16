@@ -19,7 +19,7 @@ import com.Backend.Inmobiliaria.exception.ResourceNotFoundException;
 import com.Backend.Inmobiliaria.model.Menu;
 
 
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api/v1")
 public class MenuController {
